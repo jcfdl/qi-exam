@@ -2,7 +2,6 @@
 /* @var $this SiteController */
 /* @var $model LoginForm */
 /* @var $form CActiveForm  */
-
 $this->pageTitle=Yii::app()->name . ' - Login';
 $this->breadcrumbs=array(
 	'Login',
@@ -10,44 +9,43 @@ $this->breadcrumbs=array(
 ?>
 
 <h1>Login</h1>
-
 <p>Please fill out the following form with your login credentials:</p>
-
-<div class="form">
 <?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'login-form',
-	'enableClientValidation'=>true,
+	'id'=>'form-login',
+	'enableClientValidation'=>false,
+	'htmlOptions' => array('class'=>'form floating-label','accept-charset'=>'utf-8'),
 	'clientOptions'=>array(
 		'validateOnSubmit'=>true,
 	),
 )); ?>
-
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'username'); ?>
-		<?php echo $form->textField($model,'username'); ?>
-		<?php echo $form->error($model,'username'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'password'); ?>
-		<?php echo $form->passwordField($model,'password'); ?>
-		<?php echo $form->error($model,'password'); ?>
-		<p class="hint">
-			Hint: You may login with <kbd>demo</kbd>/<kbd>demo</kbd> or <kbd>admin</kbd>/<kbd>admin</kbd>.
-		</p>
-	</div>
-
-	<div class="row rememberMe">
-		<?php echo $form->checkBox($model,'rememberMe'); ?>
-		<?php echo $form->label($model,'rememberMe'); ?>
-		<?php echo $form->error($model,'rememberMe'); ?>
-	</div>
-
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Login'); ?>
-	</div>
-
+<div class="form-group">
+<?php
+	$this->widget('Flash', array('flashes'=>Yii::app()->user->getFlashes()));
+	echo CHtml::errorSummary(
+		array($model), 
+		null, 
+		null, 
+		array('class' => 'alert alert-danger')
+	);
+?>
+</div>
+<div class="form-group">
+	<label>Email Address</label>
+	<?php echo $form->textField($model,'username', array('class'=>'form-control' . (($model->hasErrors('username'))?' is-invalid':''))); ?>
+	<?php echo $form->error($model,'username', array('class' => 'invalid-feedback')); ?>
+</div>
+<div class="form-group">
+	<label>Password</label>
+	<?php echo $form->passwordField($model,'password', array('class'=>'form-control' . (($model->hasErrors('email'))?' is-invalid':''))); ?>
+	<?php echo $form->error($model,'password', array('class' => 'invalid-feedback')); ?>
+</div>
+<div class="form-group">
+  <div class="form-check">
+  	<?php echo $form->checkBox($model,'rememberMe', array('class'=>'form-check-input')); ?>
+    <label class="form-check-label" for="invalidCheck">Remember Me</label>
+  </div>
+</div>
+<div class="form-button">
+	<?php echo CHtml::submitButton('Login', array('class'=>'btn btn-primary')); ?>
+</div>
 <?php $this->endWidget(); ?>
-</div><!-- form -->

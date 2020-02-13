@@ -27,9 +27,33 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index');
+		$user = new User('register');
+		if(isset($_POST['User'])) {
+			$user->attributes = $_POST['User'];
+			$validation = $user->validate();
+			if($validation) {
+				$transaction = Yii::app()->db->beginTransaction();
+				try {
+					if(!$user->save(false)) {
+						throw new Exception('Error on saving job vacancy.');				
+					}
+					$transaction->commit();
+					Yii::app()->user->setFlash('success', 'User successfully registered.');
+					$this->redirect('/site/login');
+				} catch(Exception $e) {
+					$transaction->rollback();
+					Yii::app()->user->setFlash('danger', 'Error: <br/>'.$e->getMessage());
+				}
+
+			}
+
+		}
+		$this->render(
+			'index',
+			array(
+				'user'=>$user,
+			)
+		);
 	}
 
 	/**
