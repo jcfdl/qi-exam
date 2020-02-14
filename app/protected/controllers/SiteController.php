@@ -21,6 +21,29 @@ class SiteController extends Controller
 		);
 	}
 
+	public function filters() {
+		return array(
+			'accessControl',
+		);
+	}
+
+	public function accessRules() {
+		return array(
+			array('allow',
+				'actions'=>array('logout'),
+				'users'=>array('@'),
+			),
+			array('deny',
+				'actions'=>array('login'),
+				'users'=>array('@'),
+				'deniedCallback' => $this->redirect('/movies/index'),
+			),
+			array('deny',
+				'users'=>array('*'),
+			),
+		);
+	}
+
 	/**
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.

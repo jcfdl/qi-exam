@@ -73,7 +73,10 @@
 		]
 	},
 	"require": {
-		"php": ">=5.1.0"
+		"php": ">=5.1.0",
+		"guzzlehttp/guzzle": "^6.5",
+		"zendframework/zend-httphandlerrunner": "^1.1",
+		"psr/log": "^1.1"
 	},
 	"suggest": {
 		"ext-mcrypt": "Required by encrypt and decrypt methods of CSecurityManager",

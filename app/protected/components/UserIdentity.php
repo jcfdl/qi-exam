@@ -47,6 +47,11 @@ class UserIdentity extends CUserIdentity
 		return !$this->errorCode;
 	}
 
+	public function getId()
+	{
+		return $this->_id;
+	}
+
 	public static function createAuthenticatedAccount($account) {
 		$identity = new self($account, '');
 		$identity->_id=$account->id;

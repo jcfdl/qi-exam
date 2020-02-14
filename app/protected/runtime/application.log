@@ -417,3 +417,1168 @@ REQUEST_URI=/site/login
 in C:\wamp64\www\qi-exam\app\protected\components\UserIdentity.php (54)
 in C:\wamp64\www\qi-exam\app\protected\components\UserIdentity.php (41)
 in C:\wamp64\www\qi-exam\app\protected\models\LoginForm.php (53)
+2020/02/14 00:45:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in C:\wamp64\www\qi-exam\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://qi.john/
+---
+2020/02/14 00:45:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in C:\wamp64\www\qi-exam\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2020/02/14 00:46:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "favicon.ico". in C:\wamp64\www\qi-exam\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2020/02/14 01:43:24 [error] [exception.CException] CException: WebUser and its behaviors do not have a method or closure named "loadAccount". in C:\wamp64\www\qi-exam\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp64\www\qi-exam\app\protected\controllers\SiteController.php(30): CComponent->__call('loadAccount', Array)
+#1 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wamp64\www\qi-exam\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#7 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/
+---
+2020/02/14 01:43:58 [error] [exception.CException] CException: WebUser and its behaviors do not have a method or closure named "loadAccount". in C:\wamp64\www\qi-exam\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp64\www\qi-exam\app\protected\controllers\SiteController.php(30): CComponent->__call('loadAccount', Array)
+#1 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wamp64\www\qi-exam\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#7 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/
+---
+2020/02/14 01:44:00 [error] [exception.CException] CException: WebUser and its behaviors do not have a method or closure named "loadAccount". in C:\wamp64\www\qi-exam\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp64\www\qi-exam\app\protected\controllers\SiteController.php(30): CComponent->__call('loadAccount', Array)
+#1 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#2 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\wamp64\www\qi-exam\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#6 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#7 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#8 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/
+---
+2020/02/14 01:54:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "movies/index". in C:\wamp64\www\qi-exam\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/index')
+#1 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/movies/index
+---
+2020/02/14 01:56:10 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "movies/index". in C:\wamp64\www\qi-exam\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/index')
+#1 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/movies/index
+---
+2020/02/14 01:56:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "movies". in C:\wamp64\www\qi-exam\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#1 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 01:57:24 [error] [php] array_map(): Expected parameter 2 to be an array, string given (C:\wamp64\www\qi-exam\framework\web\auth\CAccessControlFilter.php:115)
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): MoviesController->filterAccessControl()
+#1 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#2 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#3 C:\wamp64\www\qi-exam\framework\web\CController.php(265): MoviesController->runActionWithFilters()
+#4 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): MoviesController->run()
+#5 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 C:\wamp64\www\qi-exam\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/movies
+in C:\wamp64\www\qi-exam\app\index.php (13)
+2020/02/14 01:59:00 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\wamp64\www\qi-exam\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#9 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/movies
+HTTP_REFERER=http://qi.john/site/login
+---
+2020/02/14 02:33:59 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_qi.movie' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `Movie`.
+in C:\wamp64\www\qi-exam\app\protected\models\Movie.php (8)
+in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php (24)
+in C:\wamp64\www\qi-exam\app\index.php (13)
+2020/02/14 02:33:59 [error] [exception.CDbException] CDbException: The table "Movie" for active record class "Movie" cannot be found in the database. in C:\wamp64\www\qi-exam\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Movie))
+#1 C:\wamp64\www\qi-exam\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(8): CActiveRecord->__construct()
+#3 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#4 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#15 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 02:34:14 [error] [php] include(Model.php): failed to open stream: No such file or directory (C:\wamp64\www\qi-exam\framework\YiiBase.php:463)
+Stack trace:
+#0 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(2): spl_autoload_call()
+#1 C:\wamp64\www\qi-exam\framework\YiiBase.php(463): include()
+#2 unknown(0): autoload()
+#3 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): spl_autoload_call()
+#4 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): MoviesController->runAction()
+#7 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): MoviesController->filterAccessControl()
+#10 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#11 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\wamp64\www\qi-exam\framework\web\CController.php(265): MoviesController->runActionWithFilters()
+#13 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): MoviesController->run()
+#14 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\wamp64\www\qi-exam\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/movies
+in C:\wamp64\www\qi-exam\app\protected\models\Movie.php (2)
+in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php (24)
+in C:\wamp64\www\qi-exam\app\index.php (13)
+2020/02/14 02:37:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''. The SQL statement executed was: SHOW FULL COLUMNS FROM ``.
+in C:\wamp64\www\qi-exam\app\protected\models\Movie.php (8)
+in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php (24)
+in C:\wamp64\www\qi-exam\app\index.php (13)
+2020/02/14 02:37:41 [error] [exception.CDbException] CDbException: The table "" for active record class "Movie" cannot be found in the database. in C:\wamp64\www\qi-exam\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Movie))
+#1 C:\wamp64\www\qi-exam\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(8): CActiveRecord->__construct()
+#3 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#4 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#15 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 02:38:07 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ' users '. The SQL statement executed was: SHOW FULL COLUMNS FROM ` users `.
+in C:\wamp64\www\qi-exam\app\protected\models\Movie.php (8)
+in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php (24)
+in C:\wamp64\www\qi-exam\app\index.php (13)
+2020/02/14 02:38:07 [error] [exception.CDbException] CDbException: The table "{{ users }}" for active record class "Movie" cannot be found in the database. in C:\wamp64\www\qi-exam\framework\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Movie))
+#1 C:\wamp64\www\qi-exam\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(8): CActiveRecord->__construct()
+#3 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#4 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#15 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 02:38:18 [error] [exception.CException] CException: Property "Movie.movieapie" is not defined. in C:\wamp64\www\qi-exam\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\db\ar\CActiveRecord.php(162): CComponent->__set('movieapie', 'http://www.omdb...')
+#1 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(11): CActiveRecord->__set('movieapie', 'http://www.omdb...')
+#2 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#3 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#4 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#13 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#14 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 02:38:36 [error] [php] include(Guzzle.php): failed to open stream: No such file or directory (C:\wamp64\www\qi-exam\framework\YiiBase.php:463)
+Stack trace:
+#0 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(21): spl_autoload_call()
+#1 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(13): Movie->getMovieList()
+#2 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#3 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#4 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): MoviesController->runAction()
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#8 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): MoviesController->filterAccessControl()
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp64\www\qi-exam\framework\web\CController.php(265): MoviesController->runActionWithFilters()
+#12 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): MoviesController->run()
+#13 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp64\www\qi-exam\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/movies
+in C:\wamp64\www\qi-exam\app\protected\models\Movie.php (21)
+in C:\wamp64\www\qi-exam\app\protected\models\Movie.php (13)
+in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php (24)
+2020/02/14 02:48:24 [error] [php] include(Guzzle.php): failed to open stream: No such file or directory (C:\wamp64\www\qi-exam\framework\YiiBase.php:463)
+Stack trace:
+#0 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(21): spl_autoload_call()
+#1 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(13): Movie->getMovieList()
+#2 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#3 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#4 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): MoviesController->runAction()
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#8 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): MoviesController->filterAccessControl()
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp64\www\qi-exam\framework\web\CController.php(265): MoviesController->runActionWithFilters()
+#12 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): MoviesController->run()
+#13 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp64\www\qi-exam\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/movies
+in C:\wamp64\www\qi-exam\app\protected\models\Movie.php (21)
+in C:\wamp64\www\qi-exam\app\protected\models\Movie.php (13)
+in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php (24)
+2020/02/14 02:55:43 [error] [exception.Error] Error: Class 'GuzzleHttp\Client' not found in C:\wamp64\www\qi-exam\app\protected\models\Movie.php:21
+Stack trace:
+#0 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(13): Movie->getMovieList()
+#1 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#2 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#3 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#13 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 02:57:38 [error] [php] require(vendor/autoload.php): failed to open stream: No such file or directory (C:\wamp64\www\qi-exam\app\protected\models\Movie.php:2)
+Stack trace:
+#0 unknown(0): autoload()
+#1 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): spl_autoload_call()
+#2 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#3 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): MoviesController->runAction()
+#5 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#7 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): MoviesController->filterAccessControl()
+#8 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#9 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\wamp64\www\qi-exam\framework\web\CController.php(265): MoviesController->runActionWithFilters()
+#11 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): MoviesController->run()
+#12 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 C:\wamp64\www\qi-exam\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/movies
+in C:\wamp64\www\qi-exam\app\protected\models\Movie.php (2)
+in C:\wamp64\www\qi-exam\app\protected\models\Movie.php (2)
+in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php (24)
+2020/02/14 03:00:23 [error] [exception.GuzzleHttp\Exception\RequestException] GuzzleHttp\Exception\RequestException: cURL error 3:  (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:201
+Stack trace:
+#0 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(37): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Middleware.php(29): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(70): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\HandlerStack.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(361): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(163): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(183): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(96): GuzzleHttp\Client->request('get', NULL, Array)
+#14 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(25): GuzzleHttp\Client->__call('get', Array)
+#15 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(15): Movie->getMovieList()
+#16 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#17 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#18 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#20 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#22 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#27 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#28 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#29 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 03:00:58 [error] [exception.GuzzleHttp\Exception\RequestException] GuzzleHttp\Exception\RequestException: cURL error 3:  (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:201
+Stack trace:
+#0 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(37): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Middleware.php(29): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(70): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\HandlerStack.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(361): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(163): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(183): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(96): GuzzleHttp\Client->request('get', NULL, Array)
+#14 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(25): GuzzleHttp\Client->__call('get', Array)
+#15 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(15): Movie->getMovieList()
+#16 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#17 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#18 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#20 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#22 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#27 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#28 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#29 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 03:00:59 [error] [exception.GuzzleHttp\Exception\RequestException] GuzzleHttp\Exception\RequestException: cURL error 3:  (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:201
+Stack trace:
+#0 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(37): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Middleware.php(29): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(70): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\HandlerStack.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(361): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(163): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(183): GuzzleHttp\Client->requestAsync('get', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(96): GuzzleHttp\Client->request('get', NULL, Array)
+#14 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(25): GuzzleHttp\Client->__call('get', Array)
+#15 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(15): Movie->getMovieList()
+#16 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#17 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#18 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#20 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#21 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#22 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#23 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#24 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#25 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#26 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#27 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#28 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#29 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#30 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 03:04:04 [error] [exception.GuzzleHttp\Exception\RequestException] GuzzleHttp\Exception\RequestException: cURL error 3:  (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:201
+Stack trace:
+#0 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(37): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Middleware.php(29): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(70): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\HandlerStack.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(361): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(163): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(183): GuzzleHttp\Client->requestAsync('GET', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(25): GuzzleHttp\Client->request('GET', NULL, Array)
+#14 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(15): Movie->getMovieList()
+#15 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#16 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#17 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#26 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#27 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#28 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 03:05:56 [error] [php] include(Client.php): failed to open stream: No such file or directory (C:\wamp64\www\qi-exam\framework\YiiBase.php:463)
+Stack trace:
+#0 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(23): spl_autoload_call()
+#1 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(15): Movie->getMovieList()
+#2 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#3 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#4 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): MoviesController->runAction()
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#8 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): MoviesController->filterAccessControl()
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp64\www\qi-exam\framework\web\CController.php(265): MoviesController->runActionWithFilters()
+#12 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): MoviesController->run()
+#13 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp64\www\qi-exam\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/movies
+in C:\wamp64\www\qi-exam\app\protected\models\Movie.php (23)
+in C:\wamp64\www\qi-exam\app\protected\models\Movie.php (15)
+in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php (24)
+2020/02/14 03:07:39 [error] [exception.GuzzleHttp\Exception\RequestException] GuzzleHttp\Exception\RequestException: cURL error 3:  (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:201
+Stack trace:
+#0 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(37): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Middleware.php(29): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(70): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\HandlerStack.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(361): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(163): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(183): GuzzleHttp\Client->requestAsync('GET', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(25): GuzzleHttp\Client->request('GET', NULL, Array)
+#14 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(15): Movie->getMovieList()
+#15 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#16 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#17 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#26 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#27 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#28 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 03:08:56 [error] [exception.GuzzleHttp\Exception\RequestException] GuzzleHttp\Exception\RequestException: cURL error 3:  (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:201
+Stack trace:
+#0 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(37): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Middleware.php(29): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(70): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\HandlerStack.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(361): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(163): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(183): GuzzleHttp\Client->requestAsync('GET', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(25): GuzzleHttp\Client->request('GET', NULL, Array)
+#14 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(15): Movie->getMovieList()
+#15 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#16 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#17 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#26 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#27 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#28 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 03:08:58 [error] [exception.GuzzleHttp\Exception\RequestException] GuzzleHttp\Exception\RequestException: cURL error 3:  (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) in C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:201
+Stack trace:
+#0 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(155): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(105): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(43): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(51): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(37): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Middleware.php(29): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(70): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Middleware.php(59): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\HandlerStack.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(361): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(163): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(183): GuzzleHttp\Client->requestAsync('GET', Object(GuzzleHttp\Psr7\Uri), Array)
+#13 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(25): GuzzleHttp\Client->request('GET', NULL, Array)
+#14 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(15): Movie->getMovieList()
+#15 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#16 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#17 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#19 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#26 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#27 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#28 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 03:09:25 [error] [exception.GuzzleHttp\Exception\ClientException] GuzzleHttp\Exception\ClientException: Client error: `GET http://www.omdbapi.com?0=apikey&1=6ed8a301` resulted in a `401 Unauthorized` response:
+{"Response":"False","Error":"No API key provided."}
+ in C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php:113
+Stack trace:
+#0 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 C:\wamp64\www\qi-exam\vendor\guzzlehttp\promises\src\Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 C:\wamp64\www\qi-exam\vendor\guzzlehttp\promises\src\Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 C:\wamp64\www\qi-exam\vendor\guzzlehttp\promises\src\TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 C:\wamp64\www\qi-exam\vendor\guzzlehttp\promises\src\Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 C:\wamp64\www\qi-exam\vendor\guzzlehttp\promises\src\Promise.php(223): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 C:\wamp64\www\qi-exam\vendor\guzzlehttp\promises\src\Promise.php(267): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 C:\wamp64\www\qi-exam\vendor\guzzlehttp\promises\src\Promise.php(225): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 C:\wamp64\www\qi-exam\vendor\guzzlehttp\promises\src\Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(183): GuzzleHttp\Promise\Promise->wait()
+#10 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(25): GuzzleHttp\Client->request('GET', 'http://www.omdb...', Array)
+#11 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(15): Movie->getMovieList()
+#12 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#13 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#14 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#18 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#23 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#24 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#25 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 03:11:16 [error] [exception.GuzzleHttp\Exception\ClientException] GuzzleHttp\Exception\ClientException: Client error: `GET http://www.omdbapi.com?0=apikey%3D6ed8a301` resulted in a `401 Unauthorized` response:
+{"Response":"False","Error":"No API key provided."}
+ in C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php:113
+Stack trace:
+#0 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Middleware.php(65): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 C:\wamp64\www\qi-exam\vendor\guzzlehttp\promises\src\Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 C:\wamp64\www\qi-exam\vendor\guzzlehttp\promises\src\Promise.php(156): GuzzleHttp\Promise\Promise::callHandler(1, Object(GuzzleHttp\Psr7\Response), Array)
+#3 C:\wamp64\www\qi-exam\vendor\guzzlehttp\promises\src\TaskQueue.php(47): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 C:\wamp64\www\qi-exam\vendor\guzzlehttp\promises\src\Promise.php(246): GuzzleHttp\Promise\TaskQueue->run(true)
+#5 C:\wamp64\www\qi-exam\vendor\guzzlehttp\promises\src\Promise.php(223): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 C:\wamp64\www\qi-exam\vendor\guzzlehttp\promises\src\Promise.php(267): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 C:\wamp64\www\qi-exam\vendor\guzzlehttp\promises\src\Promise.php(225): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 C:\wamp64\www\qi-exam\vendor\guzzlehttp\promises\src\Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 C:\wamp64\www\qi-exam\vendor\guzzlehttp\guzzle\src\Client.php(183): GuzzleHttp\Promise\Promise->wait()
+#10 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(25): GuzzleHttp\Client->request('GET', 'http://www.omdb...', Array)
+#11 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(15): Movie->getMovieList()
+#12 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(24): Movie->__construct()
+#13 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#14 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#16 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#18 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#20 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#21 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#23 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#24 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#25 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 03:17:05 [error] [php] Non-static method Movie::getMovieList() should not be called statically (C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php:24)
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): MoviesController->runAction()
+#1 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#3 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): MoviesController->filterAccessControl()
+#4 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\qi-exam\framework\web\CController.php(265): MoviesController->runActionWithFilters()
+#7 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): MoviesController->run()
+#8 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\qi-exam\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/movies
+in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php (24)
+in C:\wamp64\www\qi-exam\app\index.php (13)
+2020/02/14 03:27:34 [error] [php] Undefined property: stdClass::$Search (C:\wamp64\www\qi-exam\app\protected\views\movies\index.php:2)
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CController.php(872): MoviesController->renderFile()
+#1 C:\wamp64\www\qi-exam\framework\web\CController.php(785): MoviesController->renderPartial()
+#2 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(36): MoviesController->render()
+#3 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#4 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): MoviesController->runAction()
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#8 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): MoviesController->filterAccessControl()
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp64\www\qi-exam\framework\web\CController.php(265): MoviesController->runActionWithFilters()
+#12 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): MoviesController->run()
+#13 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp64\www\qi-exam\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/movies
+in C:\wamp64\www\qi-exam\app\protected\views\movies\index.php (2)
+in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php (36)
+in C:\wamp64\www\qi-exam\app\index.php (13)
+2020/02/14 03:28:13 [error] [php] Undefined property: stdClass::$Search (C:\wamp64\www\qi-exam\app\protected\views\movies\index.php:2)
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CController.php(872): MoviesController->renderFile()
+#1 C:\wamp64\www\qi-exam\framework\web\CController.php(785): MoviesController->renderPartial()
+#2 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(36): MoviesController->render()
+#3 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#4 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): MoviesController->runAction()
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#8 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): MoviesController->filterAccessControl()
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp64\www\qi-exam\framework\web\CController.php(265): MoviesController->runActionWithFilters()
+#12 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): MoviesController->run()
+#13 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 C:\wamp64\www\qi-exam\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/movies
+in C:\wamp64\www\qi-exam\app\protected\views\movies\index.php (2)
+in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php (36)
+in C:\wamp64\www\qi-exam\app\index.php (13)
+2020/02/14 04:11:39 [error] [php] Undefined property: stdClass::$totalResult (C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php:35)
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): MoviesController->runAction()
+#1 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#3 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): MoviesController->filterAccessControl()
+#4 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\qi-exam\framework\web\CController.php(265): MoviesController->runActionWithFilters()
+#7 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): MoviesController->run()
+#8 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\qi-exam\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/movies
+in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php (35)
+in C:\wamp64\www\qi-exam\app\index.php (13)
+2020/02/14 04:16:14 [error] [exception.Error] Error: Call to undefined function prinrt_r() in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php:40
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionIndex()
+#1 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#2 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#3 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#5 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#7 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#10 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#11 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 04:25:03 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function Movie::getMovieList(), 0 passed in C:\wamp64\www\qi-exam\app\protected\models\Movie.php on line 15 and exactly 1 expected in C:\wamp64\www\qi-exam\app\protected\models\Movie.php:22
+Stack trace:
+#0 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(15): Movie->getMovieList()
+#1 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(31): Movie->__construct()
+#2 [internal function]: MoviesController->actionIndex(NULL)
+#3 C:\wamp64\www\qi-exam\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#4 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MoviesController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies')
+#15 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/movies
+---
+2020/02/14 04:25:28 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "N". in C:\wamp64\www\qi-exam\framework\web\CController.php:486
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CController.php(270): CController->missingAction('N')
+#1 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('N')
+#2 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/N/A')
+#3 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/movies/N/A
+HTTP_REFERER=http://qi.john/movies/index?page=7
+---
+2020/02/14 04:25:39 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "N". in C:\wamp64\www\qi-exam\framework\web\CController.php:486
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CController.php(270): CController->missingAction('N')
+#1 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('N')
+#2 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/N/A')
+#3 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/movies/N/A
+HTTP_REFERER=http://qi.john/movies/index?page=8
+---
+2020/02/14 04:27:57 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function Movie::getMovieList(), 0 passed in C:\wamp64\www\qi-exam\app\protected\models\Movie.php on line 15 and exactly 1 expected in C:\wamp64\www\qi-exam\app\protected\models\Movie.php:22
+Stack trace:
+#0 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(15): Movie->getMovieList()
+#1 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(31): Movie->__construct()
+#2 [internal function]: MoviesController->actionIndex(1)
+#3 C:\wamp64\www\qi-exam\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#4 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MoviesController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/index')
+#15 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/movies/index
+---
+2020/02/14 04:28:02 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function Movie::getMovieList(), 0 passed in C:\wamp64\www\qi-exam\app\protected\models\Movie.php on line 15 and exactly 1 expected in C:\wamp64\www\qi-exam\app\protected\models\Movie.php:22
+Stack trace:
+#0 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(15): Movie->getMovieList()
+#1 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(31): Movie->__construct()
+#2 [internal function]: MoviesController->actionIndex(1)
+#3 C:\wamp64\www\qi-exam\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#4 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MoviesController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/index')
+#15 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/movies/index
+---
+2020/02/14 04:28:16 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function Movie::getMovieList(), 0 passed in C:\wamp64\www\qi-exam\app\protected\models\Movie.php on line 15 and exactly 1 expected in C:\wamp64\www\qi-exam\app\protected\models\Movie.php:22
+Stack trace:
+#0 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(15): Movie->getMovieList()
+#1 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(31): Movie->__construct()
+#2 [internal function]: MoviesController->actionIndex(1)
+#3 C:\wamp64\www\qi-exam\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#4 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MoviesController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/index')
+#15 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/movies/index
+---
+2020/02/14 04:28:27 [error] [exception.ParseError] ParseError: syntax error, unexpected '?>' in C:\wamp64\www\qi-exam\app\protected\views\movies\index.php:20
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp64\\www\\q...', Array, true)
+#1 C:\wamp64\www\qi-exam\framework\web\CController.php(872): CBaseController->renderFile('C:\\wamp64\\www\\q...', Array, true)
+#2 C:\wamp64\www\qi-exam\framework\web\CController.php(785): CController->renderPartial('index', Array, true)
+#3 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(44): CController->render('index', Array)
+#4 [internal function]: MoviesController->actionIndex(1)
+#5 C:\wamp64\www\qi-exam\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#6 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MoviesController), Object(ReflectionMethod), Array)
+#7 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('index')
+#16 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/index')
+#17 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/movies/index
+---
+2020/02/14 04:36:00 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "N". in C:\wamp64\www\qi-exam\framework\web\CController.php:486
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CController.php(270): CController->missingAction('N')
+#1 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('N')
+#2 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/N/A')
+#3 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/movies/N/A
+HTTP_REFERER=http://qi.john/movies/index?page=6
+---
+2020/02/14 04:40:49 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function Movie::getMovieList(), 0 passed in C:\wamp64\www\qi-exam\app\protected\models\Movie.php on line 15 and exactly 1 expected in C:\wamp64\www\qi-exam\app\protected\models\Movie.php:22
+Stack trace:
+#0 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(15): Movie->getMovieList()
+#1 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(31): Movie->__construct()
+#2 [internal function]: MoviesController->actionIndex(NULL)
+#3 C:\wamp64\www\qi-exam\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#4 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MoviesController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/index')
+#15 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/movies/index
+---
+2020/02/14 04:41:27 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in C:\wamp64\www\qi-exam\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('index')
+#9 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/index')
+#10 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/movies/index
+---
+2020/02/14 04:41:43 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function Movie::getMovieList(), 0 passed in C:\wamp64\www\qi-exam\app\protected\models\Movie.php on line 15 and exactly 1 expected in C:\wamp64\www\qi-exam\app\protected\models\Movie.php:22
+Stack trace:
+#0 C:\wamp64\www\qi-exam\app\protected\models\Movie.php(15): Movie->getMovieList()
+#1 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(31): Movie->__construct()
+#2 [internal function]: MoviesController->actionIndex(NULL)
+#3 C:\wamp64\www\qi-exam\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(MoviesController), Array)
+#4 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MoviesController), Object(ReflectionMethod), Array)
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('index')
+#14 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/index')
+#15 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/movies/index
+---
+2020/02/14 04:43:17 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "N". in C:\wamp64\www\qi-exam\framework\web\CController.php:486
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CController.php(270): CController->missingAction('N')
+#1 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('N')
+#2 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/N/A')
+#3 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/movies/N/A
+HTTP_REFERER=http://qi.john/movies/index?page=8
+---
+2020/02/14 04:44:13 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "N". in C:\wamp64\www\qi-exam\framework\web\CController.php:486
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CController.php(270): CController->missingAction('N')
+#1 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('N')
+#2 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/N/A')
+#3 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/movies/N/A
+HTTP_REFERER=http://qi.john/movies/index?page=8
+---
+2020/02/14 04:46:22 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "N". in C:\wamp64\www\qi-exam\framework\web\CController.php:486
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CController.php(270): CController->missingAction('N')
+#1 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('N')
+#2 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/N/A')
+#3 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/movies/N/A
+HTTP_REFERER=http://qi.john/movies/index?page=8
+---
+2020/02/14 04:46:27 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "N". in C:\wamp64\www\qi-exam\framework\web\CController.php:486
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CController.php(270): CController->missingAction('N')
+#1 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('N')
+#2 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/N/A')
+#3 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/movies/N/A
+HTTP_REFERER=http://qi.john/movies/index?page=7
+---
+2020/02/14 04:50:59 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "N". in C:\wamp64\www\qi-exam\framework\web\CController.php:486
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CController.php(270): CController->missingAction('N')
+#1 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('N')
+#2 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/N/A')
+#3 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/movies/N/A
+HTTP_REFERER=http://qi.john/movies/index?page=4
+---
+2020/02/14 07:49:34 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\wamp64\www\qi-exam\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('likeMovie')
+#8 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/likeMovi...')
+#9 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/movies/likeMovie
+HTTP_REFERER=http://qi.john/movies/index?page=2
+---
+2020/02/14 07:49:34 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\wamp64\www\qi-exam\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('likeMovie')
+#8 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/likeMovi...')
+#9 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/movies/likeMovie
+HTTP_REFERER=http://qi.john/movies/index?page=2
+---
+2020/02/14 07:58:57 [error] [php] json_decode() expects parameter 1 to be string, array given (C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php:70)
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): MoviesController->runAction()
+#2 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#4 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): MoviesController->filterAccessControl()
+#5 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#6 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp64\www\qi-exam\framework\web\CController.php(265): MoviesController->runActionWithFilters()
+#8 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): MoviesController->run()
+#9 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 C:\wamp64\www\qi-exam\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/movies/likeMovie
+in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php (70)
+in C:\wamp64\www\qi-exam\app\index.php (13)
+2020/02/14 08:06:13 [error] [exception.CException] CException: Property "UserLike.imdbId" is not defined. in C:\wamp64\www\qi-exam\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\db\ar\CActiveRecord.php(145): CComponent->__get('imdbId')
+#1 C:\wamp64\www\qi-exam\app\protected\models\UserLike.php(51): CActiveRecord->__get('imdbId')
+#2 C:\wamp64\www\qi-exam\framework\db\ar\CActiveRecord.php(1125): UserLike->beforeSave()
+#3 C:\wamp64\www\qi-exam\framework\db\ar\CActiveRecord.php(811): CActiveRecord->update(NULL)
+#4 C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php(68): CActiveRecord->save()
+#5 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(49): MoviesController->actionLikeMovie()
+#6 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#8 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#10 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('likeMovie')
+#15 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('movies/likeMovi...')
+#16 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/movies/likeMovie
+HTTP_REFERER=http://qi.john/movies/index?
+---
+2020/02/14 08:44:51 [error] [exception.ParseError] ParseError: syntax error, unexpected 'array' (T_ARRAY), expecting ')' in C:\wamp64\www\qi-exam\app\protected\controllers\SiteController.php:34
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(276): CWebApplication->createController('login/')
+#1 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#2 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#3 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/site/login
+---
+2020/02/14 08:46:04 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\wamp64\www\qi-exam\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('login')
+#8 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#9 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/site/login
+---
+2020/02/14 08:50:16 [error] [php] Trying to get property 'imdbID' of non-object (C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php:46)
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): MoviesController->runAction()
+#3 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#5 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): MoviesController->filterAccessControl()
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\wamp64\www\qi-exam\framework\web\CController.php(265): MoviesController->runActionWithFilters()
+#9 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): MoviesController->run()
+#10 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\wamp64\www\qi-exam\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/movies
+in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php (46)
+in C:\wamp64\www\qi-exam\app\index.php (13)
+2020/02/14 08:50:19 [error] [php] Trying to get property 'imdbID' of non-object (C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php:46)
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): MoviesController->runAction()
+#3 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#5 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): MoviesController->filterAccessControl()
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\wamp64\www\qi-exam\framework\web\CController.php(265): MoviesController->runActionWithFilters()
+#9 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): MoviesController->run()
+#10 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\wamp64\www\qi-exam\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/movies/index
+in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php (46)
+in C:\wamp64\www\qi-exam\app\index.php (13)
+2020/02/14 08:50:21 [error] [php] Trying to get property 'imdbID' of non-object (C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php:46)
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 C:\wamp64\www\qi-exam\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(134): MoviesController->runAction()
+#3 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#5 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): MoviesController->filterAccessControl()
+#6 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#8 C:\wamp64\www\qi-exam\framework\web\CController.php(265): MoviesController->runActionWithFilters()
+#9 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): MoviesController->run()
+#10 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 C:\wamp64\www\qi-exam\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/movies/index
+in C:\wamp64\www\qi-exam\app\protected\controllers\MoviesController.php (46)
+in C:\wamp64\www\qi-exam\app\index.php (13)
