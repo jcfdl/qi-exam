@@ -30,17 +30,18 @@ class SiteController extends Controller
 	public function accessRules() {
 		return array(
 			array('allow',
+				'actions'=>array('index'),
+				'users'=>array('*'),
+			),
+			array('allow',
 				'actions'=>array('logout'),
 				'users'=>array('@'),
 			),
 			array('deny',
 				'actions'=>array('login'),
 				'users'=>array('@'),
-				'deniedCallback' => $this->redirect('/movies/index'),
-			),
-			array('deny',
-				'users'=>array('*'),
-			),
+				// 'deniedCallback' => $this->redirect('/movies/index'),
+			)
 		);
 	}
 

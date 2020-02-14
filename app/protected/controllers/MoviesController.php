@@ -56,6 +56,10 @@ class MoviesController extends Controller
 		);
 	}
 
+	public function actionLikes() {
+		echo 'Like movies';
+	}
+
 	public function actionLikeMovie() {
 		$movie_arr = array();
 		if(isset($_POST['imdbID'])) {
