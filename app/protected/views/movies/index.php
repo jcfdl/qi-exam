@@ -43,10 +43,9 @@
 	$(document).on('touchmove', onScroll); // for mobile
 	$(window).on('scroll', onScroll);
 	function onScroll() {
-		alert('fuck')
 		var position = $(document).scrollTop();
   	var bottom = $(document).height() - $(window).height();
-	  if( $(window).scrollTop() + $(window).height() >= $(document).height() ){
+	  if( $(window).scrollTop() + $(document).height() >= $(document).height() ){
 	  	alert('fuck')
 	   var page = Number($('#page').val());
 	   var allcount = Number($('#all-page').val());
