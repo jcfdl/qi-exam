@@ -2581,3 +2581,35 @@ Stack trace:
 #11 {main}
 REQUEST_URI=/site/index
 ---
+2020/02/15 14:38:44 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\wamp64\www\qi-exam\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/
+---
+2020/02/15 14:40:38 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in C:\wamp64\www\qi-exam\framework\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 C:\wamp64\www\qi-exam\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp64\www\qi-exam\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp64\www\qi-exam\framework\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp64\www\qi-exam\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp64\www\qi-exam\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp64\www\qi-exam\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp64\www\qi-exam\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\wamp64\www\qi-exam\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\wamp64\www\qi-exam\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\wamp64\www\qi-exam\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/
+---
