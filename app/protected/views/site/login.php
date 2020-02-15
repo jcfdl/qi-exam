@@ -17,6 +17,7 @@ $this->breadcrumbs=array(
 	<div class="col-md-6">
 		<?php $form=$this->beginWidget('CActiveForm', array(
 			'id'=>'form-login',
+			'action'=>Yii::app()->createUrl('/site/loginRedirect'),
 			'enableClientValidation'=>false,
 			'htmlOptions' => array('class'=>'form floating-label','accept-charset'=>'utf-8'),
 			'clientOptions'=>array(

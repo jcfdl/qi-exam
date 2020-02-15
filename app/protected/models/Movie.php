@@ -21,7 +21,7 @@
 			$response = $client->request('GET', $this->site, [
 				'query' => [
 					'apikey' => $this->apikey, 
-					's' => 'Avengers',
+					's' => 'Ave',
 					'type' => 'movie',
 					'page' => $page,
 				]
