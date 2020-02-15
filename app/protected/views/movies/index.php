@@ -40,7 +40,7 @@
 	<input id="all-page" type="hidden" value="<?= $totalResults ?>">
 </div>
 <script>
-	$(document.body).on('touchmove', onScroll); // for mobile
+	$(document).on('touchmove', onScroll); // for mobile
 	$(window).on('scroll', onScroll);
 	function onScroll() {
 		var position = $(document).scrollTop();
