@@ -43,6 +43,7 @@
 	$(document).on('touchmove', onScroll); // for mobile
 	$(window).on('scroll', onScroll);
 	function onScroll() {
+		alert('fuck')
 		var position = $(document).scrollTop();
   	var bottom = $(document).height() - $(window).height();
 	  if( $(window).scrollTop() + $(window).height() >= $(document).height() ){
