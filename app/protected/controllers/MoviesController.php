@@ -12,7 +12,7 @@ class MoviesController extends Controller
 	public function accessRules() {
 		return array(
 			array('allow',
-				'actions'=>array('index', 'likeMovie', 'indexPage', 'likes', 'view'),
+				'actions'=>array('index', 'likeMovie', 'indexPage', 'likes', 'view', 'ajaxPage'),
 				'users'=>array('@'),
 			),
 			array('deny',
@@ -66,7 +66,46 @@ class MoviesController extends Controller
 		);
 	}
 
-	public function actionIndexPage() {
+	public function actionIndexPage($page = null) {
+		$this->layout = '/layouts/blank';
+		$like_arr = array();
+		$total_like_arr = array();
+		$movie = new Movie;
+		$page = $page ? $page : 1;
+		// print_r($movie->getMovieList());exit();
+		$res = $movie->getMovieList($page);
+		// get total results
+		$total = $res->totalResults/10;
+		$_total = round($total);
+		if($total > $_total) 
+			$_total+=1;
+
+		$totallikes = UserLike::model()->existing()->findAll(array(
+			'select'=>'t.imdbID, COUNT(*) AS likesNum',
+			'group'=>'t.imdbID',
+		));
+		foreach($totallikes AS $key=>$value) {
+			$total_like_arr[$value->imdbID] = $value->likesNum;
+		}
+		$likes = UserLike::model()->existing()->findAllByAttributes(array(
+			'user_id'=>Yii::app()->user->id
+		));
+		foreach($likes AS $key => $value) {
+			$like_arr[] = $value->imdbID;
+		}
+		$this->render(
+			'index',
+			array(
+				'movies'=>$res,
+				'totalResults'=>$_total,
+				'page'=>$page,
+				'likedMovie'=>$like_arr,
+				'totalLikes'=>$total_like_arr,
+			)
+		);
+	}
+
+	public function actionAjaxPage() {
 		$this->layout = '/layouts/blank';
 		if(isset($_POST['page'])) {
 			$like_arr = array();

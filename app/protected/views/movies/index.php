@@ -55,7 +55,7 @@
 			showIcon();
 	    $('#page').val(page);
 	    $.ajax({
-	     url: '/movies/indexPage',
+	     url: '/movies/ajaxPage',
 	     type: 'post',
 	     data: {page:page},
 	     dataType: 'html',
