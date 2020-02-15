@@ -65,7 +65,7 @@ class SiteController extends Controller
 					}
 					$transaction->commit();
 					Yii::app()->user->setFlash('success', 'User successfully registered.');
-					$this->redirect('/site/login');
+					$this->redirect('/site/loginRedirect');
 				} catch(Exception $e) {
 					$transaction->rollback();
 					Yii::app()->user->setFlash('danger', 'Error: <br/>'.$e->getMessage());

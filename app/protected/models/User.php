@@ -13,7 +13,7 @@ class User extends CActiveRecord {
 
 	public function rules() {
 		return array(
-			array('first_name, last_name', 'required'),
+			array('first_name, last_name, email', 'required'),
 			array('password', 'required'),
 			array('confirmPassword', 'validatePasswordConfirm', 'on' => 'register'),
 			array('confirmPassword', 'required', 'on' => 'register'),
