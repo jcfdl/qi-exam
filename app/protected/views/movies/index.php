@@ -1,4 +1,4 @@
-<div class="row py-3">	
+<div id="movies" class="row py-3">	
 	<?php $chk_arr = array() ?>
 	<?php if($movies->Response == 'True'): ?>
 		<div class="col-md-12">
@@ -36,24 +36,34 @@
 			</div>
 		</div>
 	<?php endif; ?>
-	<div class="col-md-12 mt-3 text-right">
-		<nav aria-label="Page navigation example">
-		  <ul class="pagination justify-content-end">
-		    <li class="page-item <?= $page==1 ? 'disabled':'' ?>">
-		    	<?php $prev = $page - 1; ?>
-		    	<?php $next = $page + 1; ?>
-
-		      <?= CHtml::link('<span aria-hidden="true">&laquo;</span><span class="sr-only">Previous</span>', array('movies/indexPage', 'page' => $prev), array('class'=>'page-link sp-link'))?>
-		    </li>
-		    <?php for($i=1;$i<=$totalResults;$i++): ?>	
-					<li class="page-item <?= $page==$i ? 'active':'' ?>">
-						<?= CHtml::link($i, array('movies/indexPage', 'page' => $i), array('class'=>'page-link sp-link'))?>
-					</li>
-		    <?php endfor; ?>
-		    <li class="page-item <?= $page==$totalResults ? 'disabled':'' ?>">
-		    	<?= CHtml::link('<span aria-hidden="true">&raquo;</span><span class="sr-only">Next</span>', array('movies/indexPage', 'page' => $next), array('class'=>'page-link sp-link'))?>
-		    </li>
-		  </ul>
-		</nav>
-	</div>
+	<input id="page" type="hidden" value="1">
+	<input id="all-page" type="hidden" value="<?= $totalResults ?>">
 </div>
+<script>
+	$(window).scroll(function() {
+		var position = $(window).scrollTop();
+  	var bottom = $(document).height() - $(window).height();
+
+	  if( position == bottom ){
+	   var page = Number($('#page').val());
+	   var allcount = Number($('#all-page').val());
+	   page = page + 1;
+
+	   if(page <= allcount){
+
+			showIcon();
+	    $('#page').val(page);
+	    $.ajax({
+	     url: '/movies/indexPage',
+	     type: 'post',
+	     data: {page:page},
+	     dataType: 'html',
+	     success: function(response){
+	     	hideIcon();
+	      $(".movie-item:last").after(response);
+	     }
+	    });
+	   }
+	  }
+	});
+</script>
