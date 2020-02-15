@@ -45,7 +45,6 @@
 	function onScroll() {
 		var position = $(document).scrollTop();
   	var bottom = $(document).height() - $(window).height();
-
 	  if( position == bottom ){
 	   var page = Number($('#page').val());
 	   var allcount = Number($('#all-page').val());
