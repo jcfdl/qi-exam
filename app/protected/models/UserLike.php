@@ -4,6 +4,7 @@ class UserLike extends CActiveRecord {
 	const STATUS_DELETED = 0;
 	const STATUS_ACTIVE = 1;
 	public $confirmPassword;
+	public $likesNum;
 
 	public static function model($className=__CLASS__) {
     return parent::model($className);

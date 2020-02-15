@@ -76,12 +76,24 @@
     $(document).on('click', '.like-movie.fa-heart', function() {
 			// e.stopPropagation();
 			$(this).toggleClass("far fas");	
-
+			var id = $(this).attr('data-id');
+			var status = $(this).data('status');
+			var likenum = $('#'+ id + ' .like-num .like-total').text();
+			var newlike = 0;
+			if(status == 1) {
+				newlike = parseInt(likenum) - 1;
+				$(this).data('status', '0');
+			} else {
+				newlike = parseInt(likenum) + 1;	
+				$(this).data('status', '1');	
+			}
+			$('#'+ id + ' .like-num .like-total').html(newlike);
 			$.ajax({
 				url: '/movies/likeMovie',
 				data: {imdbID: $(this).attr('data-id')},
 				type: 'POST',
 				success: function(data) {
+					
 				}
 			})
 		})
