@@ -37,12 +37,12 @@ $this->breadcrumbs=array(
 			</div>
 			<div class="form-group">
 				<label>Email Address</label>
-				<?php echo $form->textField($model,'username', array('class'=>'form-control' . (($model->hasErrors('username'))?' is-invalid':''), 'placeholder'=>'Enter your email here.')); ?>
+				<?php echo $form->emailField($model,'username', array('class'=>'form-control' . (($model->hasErrors('username'))?' is-invalid':''), 'placeholder'=>'Enter your email here.', 'required'=>true)); ?>
 				<?php echo $form->error($model,'username', array('class' => 'invalid-feedback')); ?>
 			</div>
 			<div class="form-group">
 				<label>Password</label>
-				<?php echo $form->passwordField($model,'password', array('class'=>'form-control' . (($model->hasErrors('email'))?' is-invalid':''), 'placeholder'=>'Enter your password here')); ?>
+				<?php echo $form->passwordField($model,'password', array('class'=>'form-control' . (($model->hasErrors('email'))?' is-invalid':''), 'placeholder'=>'Enter your password here', 'required'=>true)); ?>
 				<?php echo $form->error($model,'password', array('class' => 'invalid-feedback')); ?>
 			</div>
 			<div class="form-group">
