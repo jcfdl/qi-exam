@@ -40,13 +40,12 @@
 	<input id="all-page" type="hidden" value="<?= $totalResults ?>">
 </div>
 <script>
-	$(document).on('touchmove', onScroll); // for mobile
+	// $(document).on('touchmove', onScroll);
 	$(window).on('scroll', onScroll);
 	function onScroll() {
 		var position = $(document).scrollTop();
   	var bottom = $(document).height() - $(window).height();
-	  if( $(window).scrollTop() + $(document).height() >= $(document).height() ){
-	  	alert('fuck')
+	  if( $(window).scrollTop() + $(window).height() > $(document).height() - 60 ){
 	   var page = Number($('#page').val());
 	   var allcount = Number($('#all-page').val());
 	   page = page + 1;
