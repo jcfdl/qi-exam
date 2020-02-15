@@ -43,7 +43,7 @@
 	$(document.body).on('touchmove', onScroll); // for mobile
 	$(window).on('scroll', onScroll);
 	function onScroll() {
-		var position = $(window).scrollTop();
+		var position = $(document).scrollTop();
   	var bottom = $(document).height() - $(window).height();
 
 	  if( position == bottom ){
@@ -67,5 +67,5 @@
 	    });
 	   }
 	  }
-	}
+	};
 </script>
