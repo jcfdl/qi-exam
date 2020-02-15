@@ -16,7 +16,7 @@ class MoviesController extends Controller
 				'users'=>array('@'),
 			),
 			array('deny',
-				'users'=>array('*'),
+				'users'=>array('*'),				
 			),
 		);
 	}

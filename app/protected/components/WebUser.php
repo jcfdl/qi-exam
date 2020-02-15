@@ -4,8 +4,7 @@ class WebUser extends CWebUser
 {
 	private $account;
 	
-	function getAccount()
-	{
+	function getAccount() {
 		$account = $this->loadAccount(Yii::app()->user->id);
 		if ($account === null && !Yii::app()->user->isGuest)
 		{
@@ -16,10 +15,8 @@ class WebUser extends CWebUser
 		return $account;
 	}
 	
-	protected function loadAccount($id = null)
-	{	
-		if ($this->account === null)
-		{
+	protected function loadAccount($id = null) {	
+		if ($this->account === null) {
 			if ($id !== null)
 			{
 				$this->account = User::model()->findByPk($id);

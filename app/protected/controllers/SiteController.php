@@ -30,19 +30,20 @@ class SiteController extends Controller
 
 	public function accessRules() {
 		return array(
-			array('allow',
-				'actions'=>array('index'),
-				'users'=>array('*'),
-			),
+			
 			array('allow',
 				'actions'=>array('logout'),
 				'users'=>array('@'),
 			),
 			array('deny',
-				'actions'=>array('login'),
+				'actions'=>array('login', 'index'),
 				'users'=>array('@'),
 				// 'deniedCallback' => $this->redirect('/movies/index'),
-			)
+			),
+			array('allow',
+				'actions'=>array('index'),
+				'users'=>array('*'),
+			),
 		);
 	}
 
@@ -127,6 +128,29 @@ class SiteController extends Controller
 	public function actionLogin()
 	{
 		$this->layout = '/layouts/blank';
+		$model=new LoginForm;
+
+		// if it is ajax validation request
+		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
+		{
+			echo CActiveForm::validate($model);
+			Yii::app()->end();
+		}
+
+		// collect user input data
+		if(isset($_POST['LoginForm']))
+		{
+			$model->attributes=$_POST['LoginForm'];
+			// validate user input and redirect to the previous page if valid
+			if($model->validate() && $model->login())
+				$this->redirect('/movies/index');
+		}
+		// display the login form
+		$this->render('login',array('model'=>$model));
+	}
+
+	public function actionLoginRedirect()
+	{
 		$model=new LoginForm;
 
 		// if it is ajax validation request
