@@ -40,7 +40,7 @@
 	<input id="all-page" type="hidden" value="<?= $totalResults ?>">
 </div>
 <script>
-	$(window).scroll(function() {
+	$(document).scroll(function() {
 		var position = $(window).scrollTop();
   	var bottom = $(document).height() - $(window).height();
 
